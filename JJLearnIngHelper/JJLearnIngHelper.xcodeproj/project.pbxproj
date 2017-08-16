@@ -1,0 +1,903 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2389580E4A18047B09B6C8B9 /* libPods-JJLearnIngHelper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B33B02FAE5A06A9B93B61053 /* libPods-JJLearnIngHelper.a */; };
+		773C6E571F42C415008D4746 /* JJLearnIngHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773C6E561F42C415008D4746 /* JJLearnIngHelperTests.swift */; };
+		773C6E621F42C415008D4746 /* JJLearnIngHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773C6E611F42C415008D4746 /* JJLearnIngHelperUITests.swift */; };
+		773C6E781F42CD5B008D4746 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773C6E701F42CD5B008D4746 /* AppDelegate.swift */; };
+		773C6E791F42CD5B008D4746 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 773C6E711F42CD5B008D4746 /* Assets.xcassets */; };
+		773C6E7A1F42CD5B008D4746 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 773C6E721F42CD5B008D4746 /* LaunchScreen.storyboard */; };
+		773C6E7B1F42CD5B008D4746 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 773C6E741F42CD5B008D4746 /* Main.storyboard */; };
+		773C6E7C1F42CD5B008D4746 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 773C6E761F42CD5B008D4746 /* Info.plist */; };
+		773C6E7D1F42CD5B008D4746 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773C6E771F42CD5B008D4746 /* ViewController.swift */; };
+		773C70541F42D32F008D4746 /* JJBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773C70521F42D32F008D4746 /* JJBaseViewController.swift */; };
+		773C70551F42D32F008D4746 /* JJBaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773C70531F42D32F008D4746 /* JJBaseViewController.xib */; };
+		773C70571F42D361008D4746 /* PublicFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773C70561F42D361008D4746 /* PublicFile.swift */; };
+		773C705E1F42D4D5008D4746 /* MBProgressHUD+MST.m in Sources */ = {isa = PBXBuildFile; fileRef = 773C705A1F42D4D5008D4746 /* MBProgressHUD+MST.m */; };
+		773C705F1F42D4D5008D4746 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 773C705B1F42D4D5008D4746 /* MBProgressHUD.bundle */; };
+		773C70601F42D4D5008D4746 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 773C705D1F42D4D5008D4746 /* MBProgressHUD.m */; };
+		773C70701F42DA24008D4746 /* JJLanguageLearningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773C706E1F42DA24008D4746 /* JJLanguageLearningViewController.swift */; };
+		773C70711F42DA24008D4746 /* JJLanguageLearningViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773C706F1F42DA24008D4746 /* JJLanguageLearningViewController.xib */; };
+		773C70741F42DA4C008D4746 /* JJStudyWorkersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773C70721F42DA4C008D4746 /* JJStudyWorkersViewController.swift */; };
+		773C70751F42DA4C008D4746 /* JJStudyWorkersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773C70731F42DA4C008D4746 /* JJStudyWorkersViewController.xib */; };
+		773C70781F42DA64008D4746 /* JJTranslationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773C70761F42DA64008D4746 /* JJTranslationViewController.swift */; };
+		773C70791F42DA64008D4746 /* JJTranslationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773C70771F42DA64008D4746 /* JJTranslationViewController.xib */; };
+		773C707C1F42DA7A008D4746 /* JJPersonalCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773C707A1F42DA7A008D4746 /* JJPersonalCenterViewController.swift */; };
+		773C707D1F42DA7A008D4746 /* JJPersonalCenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773C707B1F42DA7A008D4746 /* JJPersonalCenterViewController.xib */; };
+		773C70801F42E332008D4746 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773C707E1F42E332008D4746 /* RootViewController.swift */; };
+		773C70811F42E332008D4746 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773C707F1F42E332008D4746 /* RootViewController.xib */; };
+		773C70841F42F165008D4746 /* JJLanguageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773C70821F42F165008D4746 /* JJLanguageCell.swift */; };
+		773C70851F42F165008D4746 /* JJLanguageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773C70831F42F165008D4746 /* JJLanguageCell.xib */; };
+		773C708F1F430317008D4746 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773C708E1F430317008D4746 /* HeaderView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		773C6E531F42C415008D4746 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 773C6E361F42C414008D4746 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 773C6E3D1F42C414008D4746;
+			remoteInfo = JJLearnIngHelper;
+		};
+		773C6E5E1F42C415008D4746 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 773C6E361F42C414008D4746 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 773C6E3D1F42C414008D4746;
+			remoteInfo = JJLearnIngHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5814323667F117D863C59A1D /* Pods-JJLearnIngHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJLearnIngHelper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JJLearnIngHelper/Pods-JJLearnIngHelper.debug.xcconfig"; sourceTree = "<group>"; };
+		773C6E3E1F42C414008D4746 /* JJLearnIngHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJLearnIngHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		773C6E521F42C415008D4746 /* JJLearnIngHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJLearnIngHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		773C6E561F42C415008D4746 /* JJLearnIngHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JJLearnIngHelperTests.swift; sourceTree = "<group>"; };
+		773C6E581F42C415008D4746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		773C6E5D1F42C415008D4746 /* JJLearnIngHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJLearnIngHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		773C6E611F42C415008D4746 /* JJLearnIngHelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JJLearnIngHelperUITests.swift; sourceTree = "<group>"; };
+		773C6E631F42C415008D4746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		773C6E701F42CD5B008D4746 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		773C6E711F42CD5B008D4746 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		773C6E731F42CD5B008D4746 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		773C6E751F42CD5B008D4746 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		773C6E761F42CD5B008D4746 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		773C6E771F42CD5B008D4746 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		773C70521F42D32F008D4746 /* JJBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJBaseViewController.swift; sourceTree = "<group>"; };
+		773C70531F42D32F008D4746 /* JJBaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JJBaseViewController.xib; sourceTree = "<group>"; };
+		773C70561F42D361008D4746 /* PublicFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublicFile.swift; sourceTree = "<group>"; };
+		773C70591F42D4D5008D4746 /* MBProgressHUD+MST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MST.h"; sourceTree = "<group>"; };
+		773C705A1F42D4D5008D4746 /* MBProgressHUD+MST.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MST.m"; sourceTree = "<group>"; };
+		773C705B1F42D4D5008D4746 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		773C705C1F42D4D5008D4746 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		773C705D1F42D4D5008D4746 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		773C70611F42D54F008D4746 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		773C706E1F42DA24008D4746 /* JJLanguageLearningViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJLanguageLearningViewController.swift; sourceTree = "<group>"; };
+		773C706F1F42DA24008D4746 /* JJLanguageLearningViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JJLanguageLearningViewController.xib; sourceTree = "<group>"; };
+		773C70721F42DA4C008D4746 /* JJStudyWorkersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJStudyWorkersViewController.swift; sourceTree = "<group>"; };
+		773C70731F42DA4C008D4746 /* JJStudyWorkersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JJStudyWorkersViewController.xib; sourceTree = "<group>"; };
+		773C70761F42DA64008D4746 /* JJTranslationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJTranslationViewController.swift; sourceTree = "<group>"; };
+		773C70771F42DA64008D4746 /* JJTranslationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JJTranslationViewController.xib; sourceTree = "<group>"; };
+		773C707A1F42DA7A008D4746 /* JJPersonalCenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJPersonalCenterViewController.swift; sourceTree = "<group>"; };
+		773C707B1F42DA7A008D4746 /* JJPersonalCenterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JJPersonalCenterViewController.xib; sourceTree = "<group>"; };
+		773C707E1F42E332008D4746 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		773C707F1F42E332008D4746 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		773C70821F42F165008D4746 /* JJLanguageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJLanguageCell.swift; sourceTree = "<group>"; };
+		773C70831F42F165008D4746 /* JJLanguageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JJLanguageCell.xib; sourceTree = "<group>"; };
+		773C708E1F430317008D4746 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		B33B02FAE5A06A9B93B61053 /* libPods-JJLearnIngHelper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JJLearnIngHelper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E30C45FDC83A35B615A0E9D4 /* Pods-JJLearnIngHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJLearnIngHelper.release.xcconfig"; path = "Pods/Target Support Files/Pods-JJLearnIngHelper/Pods-JJLearnIngHelper.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		773C6E3B1F42C414008D4746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2389580E4A18047B09B6C8B9 /* libPods-JJLearnIngHelper.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		773C6E4F1F42C415008D4746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		773C6E5A1F42C415008D4746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5326A75138C582866F1A39DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5814323667F117D863C59A1D /* Pods-JJLearnIngHelper.debug.xcconfig */,
+				E30C45FDC83A35B615A0E9D4 /* Pods-JJLearnIngHelper.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		773C6E351F42C414008D4746 = {
+			isa = PBXGroup;
+			children = (
+				773C6E6F1F42CD5B008D4746 /* JJLearnlngHelper */,
+				773C6E551F42C415008D4746 /* JJLearnIngHelperTests */,
+				773C6E601F42C415008D4746 /* JJLearnIngHelperUITests */,
+				773C6E3F1F42C414008D4746 /* Products */,
+				5326A75138C582866F1A39DA /* Pods */,
+				DB4026BFC3D1F99BD4917893 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		773C6E3F1F42C414008D4746 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				773C6E3E1F42C414008D4746 /* JJLearnIngHelper.app */,
+				773C6E521F42C415008D4746 /* JJLearnIngHelperTests.xctest */,
+				773C6E5D1F42C415008D4746 /* JJLearnIngHelperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		773C6E551F42C415008D4746 /* JJLearnIngHelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				773C6E561F42C415008D4746 /* JJLearnIngHelperTests.swift */,
+				773C6E581F42C415008D4746 /* Info.plist */,
+			);
+			path = JJLearnIngHelperTests;
+			sourceTree = "<group>";
+		};
+		773C6E601F42C415008D4746 /* JJLearnIngHelperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				773C6E611F42C415008D4746 /* JJLearnIngHelperUITests.swift */,
+				773C6E631F42C415008D4746 /* Info.plist */,
+			);
+			path = JJLearnIngHelperUITests;
+			sourceTree = "<group>";
+		};
+		773C6E6F1F42CD5B008D4746 /* JJLearnlngHelper */ = {
+			isa = PBXGroup;
+			children = (
+				773C70511F42CF7F008D4746 /* Supporting Files */,
+				773C6E7E1F42CF6D008D4746 /* Classes */,
+				773C6E701F42CD5B008D4746 /* AppDelegate.swift */,
+				773C6E771F42CD5B008D4746 /* ViewController.swift */,
+				773C6E761F42CD5B008D4746 /* Info.plist */,
+				773C6E721F42CD5B008D4746 /* LaunchScreen.storyboard */,
+				773C6E741F42CD5B008D4746 /* Main.storyboard */,
+				773C6E711F42CD5B008D4746 /* Assets.xcassets */,
+			);
+			path = JJLearnlngHelper;
+			sourceTree = "<group>";
+		};
+		773C6E7E1F42CF6D008D4746 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				773C6E801F42CF6D008D4746 /* Main */,
+				773C6E7F1F42CF6D008D4746 /* LanguageLearning */,
+				773C6FAF1F42CF6D008D4746 /* StudyWorkers */,
+				773C6FB01F42CF6D008D4746 /* Translation */,
+				773C6FAE1F42CF6D008D4746 /* PersonalCenter */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		773C6E7F1F42CF6D008D4746 /* LanguageLearning */ = {
+			isa = PBXGroup;
+			children = (
+				773C70621F42D873008D4746 /* Controller */,
+				773C70631F42D873008D4746 /* Model */,
+				773C70641F42D873008D4746 /* View */,
+			);
+			path = LanguageLearning;
+			sourceTree = "<group>";
+		};
+		773C6E801F42CF6D008D4746 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				773C6E811F42CF6D008D4746 /* BaseClass */,
+				773C6E891F42CF6D008D4746 /* ClassTools */,
+				773C6EBD1F42CF6D008D4746 /* Controller */,
+				773C6F291F42CF6D008D4746 /* Libs */,
+				773C6FA81F42CF6D008D4746 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		773C6E811F42CF6D008D4746 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				773C70561F42D361008D4746 /* PublicFile.swift */,
+				773C70521F42D32F008D4746 /* JJBaseViewController.swift */,
+				773C70531F42D32F008D4746 /* JJBaseViewController.xib */,
+				773C707E1F42E332008D4746 /* RootViewController.swift */,
+				773C707F1F42E332008D4746 /* RootViewController.xib */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		773C6E891F42CF6D008D4746 /* ClassTools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ClassTools;
+			sourceTree = "<group>";
+		};
+		773C6EBD1F42CF6D008D4746 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		773C6F291F42CF6D008D4746 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				773C70581F42D4D5008D4746 /* MBProgressHUD */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		773C6FA81F42CF6D008D4746 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		773C6FAE1F42CF6D008D4746 /* PersonalCenter */ = {
+			isa = PBXGroup;
+			children = (
+				773C706B1F42D898008D4746 /* Controller */,
+				773C706C1F42D898008D4746 /* Model */,
+				773C706D1F42D898008D4746 /* View */,
+			);
+			path = PersonalCenter;
+			sourceTree = "<group>";
+		};
+		773C6FAF1F42CF6D008D4746 /* StudyWorkers */ = {
+			isa = PBXGroup;
+			children = (
+				773C70651F42D87F008D4746 /* Controller */,
+				773C70661F42D87F008D4746 /* Model */,
+				773C70671F42D87F008D4746 /* View */,
+			);
+			path = StudyWorkers;
+			sourceTree = "<group>";
+		};
+		773C6FB01F42CF6D008D4746 /* Translation */ = {
+			isa = PBXGroup;
+			children = (
+				773C70681F42D88C008D4746 /* Controller */,
+				773C70691F42D88C008D4746 /* Model */,
+				773C706A1F42D88C008D4746 /* View */,
+			);
+			path = Translation;
+			sourceTree = "<group>";
+		};
+		773C70511F42CF7F008D4746 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				773C70611F42D54F008D4746 /* Header.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		773C70581F42D4D5008D4746 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				773C70591F42D4D5008D4746 /* MBProgressHUD+MST.h */,
+				773C705A1F42D4D5008D4746 /* MBProgressHUD+MST.m */,
+				773C705B1F42D4D5008D4746 /* MBProgressHUD.bundle */,
+				773C705C1F42D4D5008D4746 /* MBProgressHUD.h */,
+				773C705D1F42D4D5008D4746 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		773C70621F42D873008D4746 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				773C706E1F42DA24008D4746 /* JJLanguageLearningViewController.swift */,
+				773C706F1F42DA24008D4746 /* JJLanguageLearningViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		773C70631F42D873008D4746 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		773C70641F42D873008D4746 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				773C70821F42F165008D4746 /* JJLanguageCell.swift */,
+				773C70831F42F165008D4746 /* JJLanguageCell.xib */,
+				773C708E1F430317008D4746 /* HeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		773C70651F42D87F008D4746 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				773C70721F42DA4C008D4746 /* JJStudyWorkersViewController.swift */,
+				773C70731F42DA4C008D4746 /* JJStudyWorkersViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		773C70661F42D87F008D4746 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		773C70671F42D87F008D4746 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		773C70681F42D88C008D4746 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				773C70761F42DA64008D4746 /* JJTranslationViewController.swift */,
+				773C70771F42DA64008D4746 /* JJTranslationViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		773C70691F42D88C008D4746 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		773C706A1F42D88C008D4746 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		773C706B1F42D898008D4746 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				773C707A1F42DA7A008D4746 /* JJPersonalCenterViewController.swift */,
+				773C707B1F42DA7A008D4746 /* JJPersonalCenterViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		773C706C1F42D898008D4746 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		773C706D1F42D898008D4746 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DB4026BFC3D1F99BD4917893 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B33B02FAE5A06A9B93B61053 /* libPods-JJLearnIngHelper.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		773C6E3D1F42C414008D4746 /* JJLearnIngHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 773C6E661F42C415008D4746 /* Build configuration list for PBXNativeTarget "JJLearnIngHelper" */;
+			buildPhases = (
+				721220DCED767E4D660499F0 /* [CP] Check Pods Manifest.lock */,
+				773C6E3A1F42C414008D4746 /* Sources */,
+				773C6E3B1F42C414008D4746 /* Frameworks */,
+				773C6E3C1F42C414008D4746 /* Resources */,
+				42B64E06A51B709D1CBC44FC /* [CP] Embed Pods Frameworks */,
+				B8369921F35E2E7B914A9F16 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JJLearnIngHelper;
+			productName = JJLearnIngHelper;
+			productReference = 773C6E3E1F42C414008D4746 /* JJLearnIngHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		773C6E511F42C415008D4746 /* JJLearnIngHelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 773C6E691F42C415008D4746 /* Build configuration list for PBXNativeTarget "JJLearnIngHelperTests" */;
+			buildPhases = (
+				773C6E4E1F42C415008D4746 /* Sources */,
+				773C6E4F1F42C415008D4746 /* Frameworks */,
+				773C6E501F42C415008D4746 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				773C6E541F42C415008D4746 /* PBXTargetDependency */,
+			);
+			name = JJLearnIngHelperTests;
+			productName = JJLearnIngHelperTests;
+			productReference = 773C6E521F42C415008D4746 /* JJLearnIngHelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		773C6E5C1F42C415008D4746 /* JJLearnIngHelperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 773C6E6C1F42C415008D4746 /* Build configuration list for PBXNativeTarget "JJLearnIngHelperUITests" */;
+			buildPhases = (
+				773C6E591F42C415008D4746 /* Sources */,
+				773C6E5A1F42C415008D4746 /* Frameworks */,
+				773C6E5B1F42C415008D4746 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				773C6E5F1F42C415008D4746 /* PBXTargetDependency */,
+			);
+			name = JJLearnIngHelperUITests;
+			productName = JJLearnIngHelperUITests;
+			productReference = 773C6E5D1F42C415008D4746 /* JJLearnIngHelperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		773C6E361F42C414008D4746 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "贾文鹏";
+				TargetAttributes = {
+					773C6E3D1F42C414008D4746 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = CMZV7897BN;
+						ProvisioningStyle = Automatic;
+					};
+					773C6E511F42C415008D4746 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 773C6E3D1F42C414008D4746;
+					};
+					773C6E5C1F42C415008D4746 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 773C6E3D1F42C414008D4746;
+					};
+				};
+			};
+			buildConfigurationList = 773C6E391F42C414008D4746 /* Build configuration list for PBXProject "JJLearnIngHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = 773C6E351F42C414008D4746;
+			productRefGroup = 773C6E3F1F42C414008D4746 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				773C6E3D1F42C414008D4746 /* JJLearnIngHelper */,
+				773C6E511F42C415008D4746 /* JJLearnIngHelperTests */,
+				773C6E5C1F42C415008D4746 /* JJLearnIngHelperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		773C6E3C1F42C414008D4746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773C6E7C1F42CD5B008D4746 /* Info.plist in Resources */,
+				773C707D1F42DA7A008D4746 /* JJPersonalCenterViewController.xib in Resources */,
+				773C70791F42DA64008D4746 /* JJTranslationViewController.xib in Resources */,
+				773C6E7B1F42CD5B008D4746 /* Main.storyboard in Resources */,
+				773C70551F42D32F008D4746 /* JJBaseViewController.xib in Resources */,
+				773C6E791F42CD5B008D4746 /* Assets.xcassets in Resources */,
+				773C70751F42DA4C008D4746 /* JJStudyWorkersViewController.xib in Resources */,
+				773C70851F42F165008D4746 /* JJLanguageCell.xib in Resources */,
+				773C70711F42DA24008D4746 /* JJLanguageLearningViewController.xib in Resources */,
+				773C70811F42E332008D4746 /* RootViewController.xib in Resources */,
+				773C6E7A1F42CD5B008D4746 /* LaunchScreen.storyboard in Resources */,
+				773C705F1F42D4D5008D4746 /* MBProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		773C6E501F42C415008D4746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		773C6E5B1F42C415008D4746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42B64E06A51B709D1CBC44FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JJLearnIngHelper/Pods-JJLearnIngHelper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		721220DCED767E4D660499F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B8369921F35E2E7B914A9F16 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JJLearnIngHelper/Pods-JJLearnIngHelper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		773C6E3A1F42C414008D4746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773C70781F42DA64008D4746 /* JJTranslationViewController.swift in Sources */,
+				773C705E1F42D4D5008D4746 /* MBProgressHUD+MST.m in Sources */,
+				773C70601F42D4D5008D4746 /* MBProgressHUD.m in Sources */,
+				773C70801F42E332008D4746 /* RootViewController.swift in Sources */,
+				773C6E7D1F42CD5B008D4746 /* ViewController.swift in Sources */,
+				773C70541F42D32F008D4746 /* JJBaseViewController.swift in Sources */,
+				773C70571F42D361008D4746 /* PublicFile.swift in Sources */,
+				773C70841F42F165008D4746 /* JJLanguageCell.swift in Sources */,
+				773C70701F42DA24008D4746 /* JJLanguageLearningViewController.swift in Sources */,
+				773C70741F42DA4C008D4746 /* JJStudyWorkersViewController.swift in Sources */,
+				773C6E781F42CD5B008D4746 /* AppDelegate.swift in Sources */,
+				773C707C1F42DA7A008D4746 /* JJPersonalCenterViewController.swift in Sources */,
+				773C708F1F430317008D4746 /* HeaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		773C6E4E1F42C415008D4746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773C6E571F42C415008D4746 /* JJLearnIngHelperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		773C6E591F42C415008D4746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773C6E621F42C415008D4746 /* JJLearnIngHelperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		773C6E541F42C415008D4746 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 773C6E3D1F42C414008D4746 /* JJLearnIngHelper */;
+			targetProxy = 773C6E531F42C415008D4746 /* PBXContainerItemProxy */;
+		};
+		773C6E5F1F42C415008D4746 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 773C6E3D1F42C414008D4746 /* JJLearnIngHelper */;
+			targetProxy = 773C6E5E1F42C415008D4746 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		773C6E721F42CD5B008D4746 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				773C6E731F42CD5B008D4746 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		773C6E741F42CD5B008D4746 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				773C6E751F42CD5B008D4746 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		773C6E641F42C415008D4746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		773C6E651F42C415008D4746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		773C6E671F42C415008D4746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5814323667F117D863C59A1D /* Pods-JJLearnIngHelper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CMZV7897BN;
+				INFOPLIST_FILE = "$(SRCROOT)/JJLearnlngHelper/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TongFangDingXin.JJLearnIngHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/JJLearnlngHelper/Supporting Files/Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		773C6E681F42C415008D4746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E30C45FDC83A35B615A0E9D4 /* Pods-JJLearnIngHelper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CMZV7897BN;
+				INFOPLIST_FILE = "$(SRCROOT)/JJLearnlngHelper/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TongFangDingXin.JJLearnIngHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/JJLearnlngHelper/Supporting Files/Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		773C6E6A1F42C415008D4746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JJLearnIngHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TongFangDingXin.JJLearnIngHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JJLearnIngHelper.app/JJLearnIngHelper";
+			};
+			name = Debug;
+		};
+		773C6E6B1F42C415008D4746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JJLearnIngHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TongFangDingXin.JJLearnIngHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JJLearnIngHelper.app/JJLearnIngHelper";
+			};
+			name = Release;
+		};
+		773C6E6D1F42C415008D4746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = JJLearnIngHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TongFangDingXin.JJLearnIngHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = JJLearnIngHelper;
+			};
+			name = Debug;
+		};
+		773C6E6E1F42C415008D4746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = JJLearnIngHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TongFangDingXin.JJLearnIngHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = JJLearnIngHelper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		773C6E391F42C414008D4746 /* Build configuration list for PBXProject "JJLearnIngHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				773C6E641F42C415008D4746 /* Debug */,
+				773C6E651F42C415008D4746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		773C6E661F42C415008D4746 /* Build configuration list for PBXNativeTarget "JJLearnIngHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				773C6E671F42C415008D4746 /* Debug */,
+				773C6E681F42C415008D4746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		773C6E691F42C415008D4746 /* Build configuration list for PBXNativeTarget "JJLearnIngHelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				773C6E6A1F42C415008D4746 /* Debug */,
+				773C6E6B1F42C415008D4746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		773C6E6C1F42C415008D4746 /* Build configuration list for PBXNativeTarget "JJLearnIngHelperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				773C6E6D1F42C415008D4746 /* Debug */,
+				773C6E6E1F42C415008D4746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 773C6E361F42C414008D4746 /* Project object */;
+}
